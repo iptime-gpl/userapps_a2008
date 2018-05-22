@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.13.4
  */
-#define AUTOCONF_TIMESTAMP "2017-08-21 09:29:52 KST"
+#define AUTOCONF_TIMESTAMP "2017-10-25 10:07:22 KST"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -96,7 +96,7 @@
 #define ENABLE_FEATURE_PREFER_APPLETS 1
 #define USE_FEATURE_PREFER_APPLETS(...) __VA_ARGS__
 #define SKIP_FEATURE_PREFER_APPLETS(...)
-#define CONFIG_BUSYBOX_EXEC_PATH ""
+#define CONFIG_BUSYBOX_EXEC_PATH "/proc/self/exe"
 #define ENABLE_BUSYBOX_EXEC_PATH 1
 #define USE_BUSYBOX_EXEC_PATH(...) __VA_ARGS__
 #define SKIP_BUSYBOX_EXEC_PATH(...)
